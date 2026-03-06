@@ -1229,179 +1229,41 @@ body{
         padding:30px;
     }
 
-        
+    /* ================= OPPO A71 PHONE RESPONSIVE ================= */
+@media (max-width: 375px) {
 
-    /* ================= EXTRA SMALL PHONES ================= */
-
-@media (max-width:480px){
-
-    /* Container */
+    /* CONTAINER */
     .container{
         width:95%;
     }
-    
-    /* Header */
+
+    /* HEADER */
     .logo a{
+        font-size:18px;
+    }
+
+    .header-icons i{
+        font-size:14px;
+    }
+
+    .menu-toggle{
         font-size:20px;
     }
-    
-    .header-icons i{
-        font-size:16px;
+
+    .nav{
+        top:70px;
+        gap:20px;
+        padding:25px 0;
     }
-    
+
     /* HERO */
-    
     .hero{
-        padding-top:130px;
-    }
-    
-    .hero-container{
-        flex-direction:column;
-        gap:30px;
-    }
-    
-    .hero-content h1{
-        font-size:24px;
-        line-height:1.3;
-    }
-    
-    .hero-content p{
-        font-size:14px;
-    }
-    
-    .hero-buttons{
-        flex-direction:column;
-        gap:12px;
-    }
-    
-    .btn-primary,
-    .btn-outline{
-        width:100%;
-        text-align:center;
-    }
-    
-    /* Image */
-    
-    .hero-image img{
-        max-width:260px;
-    }
-    
-    /* TITLES */
-    
-    .section-title h2{
-        font-size:26px;
-    }
-    
-    .section-title p{
-        font-size:14px;
-    }
-    
-    /* PRODUCTS */
-    
-    .products-grid{
-        grid-template-columns:1fr;
-        gap:25px;
-    }
-    
-    .product-img{
-        height:180px;
-    }
-    
-    /* SHOP */
-    
-    .shop-grid{
-        grid-template-columns:1fr;
-    }
-    
-    .shop-card img{
-        height:180px;
-    }
-    
-    /* DEALS */
-    
-    .deal-content h2{
-        font-size:26px;
-    }
-    
-    .countdown{
-        gap:10px;
-    }
-    
-    .countdown div{
-        min-width:60px;
-        padding:12px;
-    }
-    
-    .countdown span{
-        font-size:20px;
-    }
-    
-    /* BRANDS */
-    
-    .brand{
-        width:140px;
-    }
-    
-    .brands-track{
-        width:calc(140px * 10);
-    }
-    
-    /* CONTACT */
-    
-    .contact-section{
-        padding:80px 20px;
-    }
-    
-    .contact-left h2{
-        font-size:28px;
-    }
-    
-    .contact-form{
-        padding:25px;
-    }
-    
-    /* FOOTER */
-    
-    .footer-container{
-        grid-template-columns:1fr;
-        gap:40px;
-    }
-    
-    /* CART */
-    
-    .cart-drawer{
-        width:100%;
-    }
-    
-    }
-
-/* ================= EXTRA SMALL PHONES 430PX ================= */
-@media (max-width:430px){
-
-    /* Container */
-    .container{
-        width:96%;
-    }
-
-    /* Logo */
-    .logo a{
-        font-size:19px;
-    }
-
-    /* Header icons */
-    .header-icons i{
-        font-size:15px;
-    }
-
-    /* Hero */
-    .hero{
-        padding-top:125px;
+        padding-top:120px;
     }
 
     .hero-container{
         flex-direction:column;
-        gap:25px;
-        text-align:center;
+        gap:20px;
     }
 
     .hero-content h1{
@@ -1421,45 +1283,44 @@ body{
     .btn-primary,
     .btn-outline{
         width:100%;
-        font-size:13px;
         padding:10px 15px;
-        text-align:center;
+        font-size:13px;
     }
 
-    /* Hero image */
     .hero-image img{
-        max-width:240px;
+        max-width:200px;
     }
 
-    /* Section titles */
+    /* SECTION TITLES */
     .section-title h2{
-        font-size:24px;
+        font-size:22px;
     }
 
     .section-title p{
         font-size:13px;
     }
 
-    /* Products */
-    .products-grid,
-    .shop-grid{
+    /* PRODUCTS GRID */
+    .products-grid, .shop-grid{
         grid-template-columns:1fr;
         gap:20px;
     }
 
-    .product-img,
-    .shop-card img{
-        height:160px;
+    .product-img, .shop-card img{
+        height:150px;
     }
 
-    .product-card h3,
-    .shop-card h3{
-        font-size:17px;
+    .product-card h3, .shop-card h3{
+        font-size:16px;
     }
 
-    /* Deals */
+    /* DEALS */
     .deal-content h2{
-        font-size:24px;
+        font-size:22px;
+    }
+
+    .deal-product img{
+        width:180px;
     }
 
     .countdown{
@@ -1467,76 +1328,46 @@ body{
     }
 
     .countdown div{
-        min-width:55px;
+        min-width:50px;
         padding:10px;
     }
 
     .countdown span{
-        font-size:18px;
+        font-size:16px;
     }
 
-    .deal-product img{
-        width:240px;
-    }
-
-    /* Brands */
+    /* BRANDS */
     .brand{
-        width:130px;
+        width:120px;
     }
 
     .brands-track{
-        width:calc(130px * 10);
+        width:calc(120px * 10);
     }
 
-    /* Contact section */
+    /* CONTACT */
     .contact-section{
-        padding:70px 15px;
+        padding:60px 15px;
     }
 
     .contact-left h2{
-        font-size:26px;
+        font-size:22px;
     }
 
     .contact-form{
         padding:20px;
     }
 
-    /* Footer */
+    /* FOOTER */
     .footer-container{
         grid-template-columns:1fr;
-        gap:30px;
+        gap:20px;
     }
 
-    /* Cart drawer */
+    /* CART DRAWER FIX */
     .cart-drawer{
         width:100%;
+        right:-100%;
     }
-}
-/* CART DRAWER FIX FOR PHONES */
-.cart-drawer {
-    position: fixed;
-    top: 0;
-    right: -100%; /* مهم: خليه -100% عوض -400px */
-    width: 400px; /* أو width: 100% للشاشات الصغيرة */
-    height: 100%;
-    background: rgba(20,20,30,0.95);
-    backdrop-filter: blur(12px);
-    box-shadow: -5px 0 30px rgba(0,240,255,0.2);
-    transition: right 0.5s;
-    z-index: 9999;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden; /* منع ظهور أي جزء من الداخل */
-}
 
-.cart-drawer.active {
-    right: 0; /* يظهر عند التفعيل */
-}
-
-/* للهواتف الصغيرة */
-@media (max-width:450px){
-    .cart-drawer {
-        width: 100%;
-        right: -100%; /* يختفي تماما في البداية */
-    }
 }
