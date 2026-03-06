@@ -1234,7 +1234,7 @@ body{
 
     /* CONTAINER */
     .container{
-        width:80%;
+        width:400px;
     }
 
     /* HEADER */
@@ -1371,4 +1371,5 @@ body{
     }
 
 }
+
 
