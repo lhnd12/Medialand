@@ -1228,28 +1228,150 @@ body{
     .contact-form{
         padding:30px;
     }
-    
+
+        
+
+    /* ================= EXTRA SMALL PHONES ================= */
+
+@media (max-width:480px){
+
+    /* Container */
+    .container{
+        width:95%;
     }
     
+    /* Header */
+    .logo a{
+        font-size:20px;
+    }
     
-    /* ================= EXTRA SMALL PHONES ================= */
+    .header-icons i{
+        font-size:16px;
+    }
     
-    @media (max-width:480px){
+    /* HERO */
+    
+    .hero{
+        padding-top:130px;
+    }
+    
+    .hero-container{
+        flex-direction:column;
+        gap:30px;
+    }
     
     .hero-content h1{
+        font-size:24px;
+        line-height:1.3;
+    }
+    
+    .hero-content p{
+        font-size:14px;
+    }
+    
+    .hero-buttons{
+        flex-direction:column;
+        gap:12px;
+    }
+    
+    .btn-primary,
+    .btn-outline{
+        width:100%;
+        text-align:center;
+    }
+    
+    /* Image */
+    
+    .hero-image img{
+        max-width:260px;
+    }
+    
+    /* TITLES */
+    
+    .section-title h2{
         font-size:26px;
     }
     
-    .section-title h2{
-        font-size:30px;
+    .section-title p{
+        font-size:14px;
     }
     
-    .deal-content h2{
-        font-size:30px;
+    /* PRODUCTS */
+    
+    .products-grid{
+        grid-template-columns:1fr;
+        gap:25px;
     }
+    
+    .product-img{
+        height:180px;
+    }
+    
+    /* SHOP */
+    
+    .shop-grid{
+        grid-template-columns:1fr;
+    }
+    
+    .shop-card img{
+        height:180px;
+    }
+    
+    /* DEALS */
+    
+    .deal-content h2{
+        font-size:26px;
+    }
+    
+    .countdown{
+        gap:10px;
+    }
+    
+    .countdown div{
+        min-width:60px;
+        padding:12px;
+    }
+    
+    .countdown span{
+        font-size:20px;
+    }
+    
+    /* BRANDS */
+    
+    .brand{
+        width:140px;
+    }
+    
+    .brands-track{
+        width:calc(140px * 10);
+    }
+    
+    /* CONTACT */
+    
+    .contact-section{
+        padding:80px 20px;
+    }
+    
+    .contact-left h2{
+        font-size:28px;
+    }
+    
+    .contact-form{
+        padding:25px;
+    }
+    
+    /* FOOTER */
+    
+    .footer-container{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+    
+    /* CART */
     
     .cart-drawer{
         width:100%;
     }
     
     }
+
