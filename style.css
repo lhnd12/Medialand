@@ -1512,3 +1512,31 @@ body{
         width:100%;
     }
 }
+/* CART DRAWER FIX FOR PHONES */
+.cart-drawer {
+    position: fixed;
+    top: 0;
+    right: -100%; /* مهم: خليه -100% عوض -400px */
+    width: 400px; /* أو width: 100% للشاشات الصغيرة */
+    height: 100%;
+    background: rgba(20,20,30,0.95);
+    backdrop-filter: blur(12px);
+    box-shadow: -5px 0 30px rgba(0,240,255,0.2);
+    transition: right 0.5s;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden; /* منع ظهور أي جزء من الداخل */
+}
+
+.cart-drawer.active {
+    right: 0; /* يظهر عند التفعيل */
+}
+
+/* للهواتف الصغيرة */
+@media (max-width:450px){
+    .cart-drawer {
+        width: 100%;
+        right: -100%; /* يختفي تماما في البداية */
+    }
+}
