@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MediaLand | Shop</title>
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/products.css">
+<link rel="stylesheet" href="css/shop.css">
+<link rel="stylesheet" href="css/cart.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="logo">
+        <a href="index.html">Media<span>Land</span></a>
+    </div>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="index.html#categories">Categories</a>
+        <a href="index.html#deals">Deals</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="cart-icon">
+        <i class="fa fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+</header>
+
+<!-- PAGE TITLE -->
+<section class="hero" style="height:300px; display:flex; align-items:center; justify-content:center; background:#050b1f;">
+    <h1 style="color:white; font-size:48px;">Shop All <span style="background:linear-gradient(90deg,#00f0ff,#0077ff); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Products</span></h1>
+</section>
+
+<!-- FILTER -->
+<div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="laptops">Laptops</button>
+    <button class="filter-btn" data-filter="smartphones">Smartphones</button>
+    <button class="filter-btn" data-filter="audio">Audio</button>
+    <button class="filter-btn" data-filter="wearables">Wearables</button>
+    <button class="filter-btn" data-filter="gaming">Gaming</button>
+    <button class="filter-btn" data-filter="accessories">Accessories</button>
+</div>
+
+<!-- PRODUCTS -->
+<section class="products">
+    <div class="products-grid">
+
+        <div class="product-card" data-category="laptops" data-name="Gaming Laptop" data-price="1299" data-description="High-end gaming laptop with RTX graphics." data-image="https://images.unsplash.com/photo-1623934199716-dc28818a6ec7?w=500">
+            <img src="https://images.unsplash.com/photo-1623934199716-dc28818a6ec7?w=500" alt="Gaming Laptop">
+            <h3>Gaming Laptop</h3>
+            <p class="price">$1299</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="smartphones" data-name="Samsung S21 Plus" data-price="999" data-description="Latest Samsung flagship smartphone." data-image="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500">
+            <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500" alt="Samsung S21 Plus">
+            <h3>Samsung S21 Plus</h3>
+            <p class="price">$999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="audio" data-name="Wireless Headphones" data-price="199" data-description="Noise-cancelling wireless headphones." data-image="https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?w=500">
+            <img src="https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?w=500" alt="Wireless Headphones">
+            <h3>Wireless Headphones</h3>
+            <p class="price">$199</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="wearables" data-name="Smartwatch Pro" data-price="299" data-description="Premium smartwatch with health tracking." data-image="https://images.unsplash.com/photo-1676554565987-524692127b1a?w=500">
+            <img src="https://images.unsplash.com/photo-1676554565987-524692127b1a?w=500" alt="Smartwatch Pro">
+            <h3>Smartwatch Pro</h3>
+            <p class="price">$299</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="gaming" data-name="Gaming Headset" data-price="149" data-description="Immersive surround sound gaming headset." data-image="https://images.unsplash.com/photo-1629429407756-4a7703614972?w=500">
+            <img src="https://images.unsplash.com/photo-1629429407756-4a7703614972?w=500" alt="Gaming Headset">
+            <h3>Gaming Headset</h3>
+            <p class="price">$149</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="accessories" data-name="iPhone Charger" data-price="49" data-description="Fast charging USB-C cable." data-image="https://images.unsplash.com/photo-1624960024724-458b1d2f4646?w=500">
+            <img src="https://plus.unsplash.com/premium_photo-1725867721975-bea9a26a20f7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aVBob25lJTIwQ2hhcmdlcnxlbnwwfHwwfHx8MA%3D%3D" alt="iPhone Charger">
+            <h3>iPhone Charger</h3>
+            <p class="price">$49</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<div class="quickview-overlay"></div>
+<div class="quickview-modal">
+
+<button class="close-quickview">✕</button>
+
+<div class="quickview-content">
+
+<div class="quickview-image">
+<img src="" alt="Product Image">
+</div>
+
+<div class="quickview-details">
+
+<h2 class="quickview-title"></h2>
+
+<p class="quickview-price"></p>
+
+<p class="quickview-description"></p>
+
+<div class="quickview-variants">
+
+<h4>Variants:</h4>
+
+<select class="quickview-variant-select">
+<option value="default">Select Option</option>
+</select>
+
+</div>
+
+<p class="quickview-stock"></p>
+
+<button class="quickview-add-cart">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="cart-drawer">
+
+    <div class="cart-header">
+    
+    <h3>Your Cart</h3>
+    
+    <button id="close-cart">✕</button>
+    
+    </div>
+    
+    <div class="cart-items"></div>
+    
+    <div class="cart-footer">
+    
+    <p>Subtotal: $<span id="cart-total">0</span></p>
+    
+    <button class="checkout-btn">
+    Checkout
+    </button>
+    
+    </div>
+    
+</div>     
+<div class="cart-overlay"></div>
+
+<footer class="footer">
+
+    <div class="footer-container">
+    
+      <!-- Logo & Newsletter -->
+      <div class="footer-brand">
+        <h2 class="footer-logo"><span>Media</span>Land</h2>
+        <p>Subscribe to our newsletter for exclusive deals & updates.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    
+      <!-- Social Media -->
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 MediaLand. All Rights Reserved.</p>
+    </div>
+    
+</footer>
+
+<!-- SCRIPTS -->
+<script src="js/shop.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/quickview.js"></script>
+<script src="js/menu.js"></script>
+
+</body>
+</html>
